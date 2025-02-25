@@ -4,7 +4,7 @@ export interface SearchResult {
   category: string;
 }
 
-const API_URL = "http://localhost:5000/api/search";
+const API_URL = "https://canonical-search-backend.onrender.com/api/search";
 
 export const searchName = async (
   query: string
